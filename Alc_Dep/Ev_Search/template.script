@@ -1,0 +1,7 @@
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=3:00:00
+#PBS -N key_setREPLACE
+#PBS -j oe   
+cd ~/Alc_Dep/Ev_Search
+python Search.py "key_setREPLACE.pkl" LOAD
+
